@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+                
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    	android:id="@+id/navbar"
+    	android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="35dip"
+        android:background="#000"
+        android:paddingTop="4dip"
+        android:paddingBottom="4dip">
+        
+        <ImageView
+        	android:id="@+id/wordmark"
+        	android:layout_width="wrap_content"
+        	android:layout_height="fill_parent"
+        	android:layout_alignParentLeft="true"
+        	android:src="@drawable/ab_wordmark_black"></ImageView>
+        
+        </RelativeLayout>
+        
+        <TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@android:id/tabhost"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+                
+           <LinearLayout
+           		android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@color/white">
+                        
+                <TabWidget
+                	android:id="@android:id/tabs"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="0dip"
+                    android:layout_marginRight="0dip" />
+                    
+                <View
+                	android:layout_width="fill_parent"
+                	android:layout_height="2dip"
+                    android:background="@color/darkgrey" />
+                    
+                <View
+                	android:layout_width="fill_parent"
+                	android:layout_height="1dip"
+                    android:background="@color/lightgrey" />
+                    
+                <FrameLayout
+                	android:id="@android:id/tabcontent"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="@color/black" />
+                    
+                </LinearLayout>
+                
+        </TabHost>
+
+</LinearLayout>

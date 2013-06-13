@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:padding="8dip">
+    
+    <TextView
+    	android:id="@+id/heading"
+    	android:text="About Haptigo"
+    	android:textSize="20sp"
+    	android:layout_marginBottom="15dip"
+    	android:textColor="@color/lightgrey"
+    	android:layout_height="wrap_content"
+    	android:layout_width="wrap_content" />
+    	
+    <LinearLayout
+    	xmlns:android="http://schemas.android.com/apk/res/android"
+		  android:orientation="vertical"
+		  android:layout_width="match_parent"
+		  android:layout_height="match_parent"
+		  android:padding="5dip"
+		  android:isScrollContainer="true" >
+		  
+    <TextView
+    	android:id="@+id/intro"
+    	android:text="@string/intro"
+    	android:padding="5dip"
+    	android:textSize="16sp"
+    	android:textColor="@color/lightgrey"
+    	android:layout_height="wrap_content"
+    	android:layout_width="wrap_content" />
+    	
+    	<TextView
+    	android:id="@+id/haphead"
+    	android:text="@string/hapticshead"
+    	android:padding="5dip"
+    	android:textSize="16sp"
+    	android:textColor="@color/lightgrey"
+    	android:layout_height="wrap_content"
+    	android:layout_width="wrap_content" />
+    	
+    	<TextView
+    	android:id="@+id/haptix"
+    	android:text="@string/abouthaptics"
+    	android:padding="5dip"
+    	android:textSize="16sp"
+    	android:textColor="@color/lightgrey"
+    	android:layout_height="wrap_content"
+    	android:layout_width="wrap_content"/>
+    	
+    	<TextView
+    	android:id="@+id/harness"
+    	android:text="@string/harnesshead"
+    	android:padding="5dip"
+    	android:textSize="16sp"
+    	android:textColor="@color/lightgrey"
+    	android:layout_height="wrap_content"
+    	android:layout_width="wrap_content" />
+    	
+    	<TextView
+    	android:id="@+id/aboutharness"
+    	android:text="@string/aboutharness"
+    	android:padding="5dip"
+    	android:textSize="16sp"
+    	android:textColor="@color/lightgrey"
+    	android:layout_height="wrap_content"
+    	android:layout_width="wrap_content" />
+    	
+    	</LinearLayout>
+    
+</LinearLayout>

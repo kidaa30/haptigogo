@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+  
+  <ImageView
+    	android:id="@+id/logo"
+    	android:src="@drawable/my_wordmark"
+    	android:layout_height="wrap_content"
+    	android:layout_width="wrap_content"
+    	android:layout_centerHorizontal="true"></ImageView>
+    	
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="200dip"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true">	
+    	
+    <Button
+    	android:layout_height="wrap_content"
+    	android:id="@+id/newroute"
+    	android:clickable="true"
+    	android:layout_width="fill_parent"
+    	android:text="New Route"></Button>
+    	
+    <Button
+    	android:id="@+id/totour"
+    	android:layout_height="wrap_content"
+    	android:clickable="true"
+    	android:layout_width="fill_parent"
+    	android:text="Get to A Tour"></Button>
+    	
+    </TableLayout>
+    	
+    <TextView
+		android:id="@+id/copy"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:text="@string/copyright"
+		android:layout_centerHorizontal="true"
+		android:layout_alignParentBottom="true"></TextView>
+  
+</RelativeLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="transparent">#00000000</color>
+    <color name="shading">#2E115B</color>
+    <color name="darkpurple">#6109EF</color>
+    <color name="lightpurple">#A132F9</color>
+    <color name="lightgrey">#CECECE</color>
+    <color name="darkgrey">#696969</color>
+    <color name="lavender">#B966FE</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+</resources>

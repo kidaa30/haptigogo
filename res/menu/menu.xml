@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/exit"
+          android:icon="@drawable/ic_clear"
+          android:title="Disconnect GPS" 
+          android:padding="5dip"/>
+    <item android:id="@+id/bluetooth"
+          android:icon="@drawable/mi_bluetooth"
+          android:title="Select Bluetooth"
+          android:padding="5dip">
+       <menu xmlns:android="http://schemas.android.com/apk/res/android">
+    		<group android:checkableBehavior="single">
+        		<item
+        			android:id="@+id/bt1"
+	              	android:title="@string/bt1"
+	              	android:checked="true"/>
+    		    <item
+    		    	android:id="@+id/bt2"
+            	  	android:title="@string/bt2" />
+    		</group>
+		</menu>
+	</item>
+</menu>

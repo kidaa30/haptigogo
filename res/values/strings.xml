@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, MainMenu!</string>
+    <string name="app_name">HaptiGo</string>
+    <string name="empty">&quot;&quot;</string>
+    <string name ="mapsKey">0_UqbirtF17IUMTPsSx_ugkiAt77BbTQlEI6MDQ</string>
+    <string name="ok">OK</string>
+    <string name="copyright">&#xA9; Texas A&amp;M 2011</string>
+    
+    <!-- Bluetooth devices -->
+    <string name="bt1">00:06:66:42:22:7C</string>
+    <string name="bt2">00:06:66:04:DC:7E</string>
+    
+    
+    <string-array name="tours_array">
+        <item>Texas A&amp;M Tour</item>
+         <item>Awareness Test Course</item>
+        <item>Tradition Parking Tour</item>
+        <item>Northgate Block Tour</item>
+        <item>Greek Lawn Tour</item>
+    </string-array>
+    
+    <!-- For the About page -->
+    <string name="intro">HaptiGo is a navigational system that uses haptic feedback to guide the user. The system is comprised of a haptic harness, which is controlled via a Arduino LilyPad control board, and an Android smartphone, equipped with the HaptiGo application. Communications between the two are sent using Bluetooth technology.</string>
+    <string name="hapticshead"><b>What is Haptic Feedback&#63;</b></string>
+    <string name="abouthaptics">The word &quot;haptic&quot; derives from the Greek word <i>haptikos</i>, which means pertaining to the sense of touch. &quot;Haptic feedback&quot; is a process that uses touch to communicate with a user. In this case, the haptic feedback is provided by vibrations emitted from the three vibro-tactile actuators positioned on the right, left and center areas of the haptic harness.</string>
+    <string name="harnesshead"><b>How Does the Harness Work&#63;</b></string>
+    <string name="aboutharness">The haptic harness uses vibrations to navigate the user through a walking or driving tour. Think of it as an alternative method of navigation that employs your sense of touch, rather than using auditory or visual cues. As you walk, the actuators will be sending out vibrational signals, indicating if you should be bearing right or left, or continue traveling in a straight line. These signals are guiding you through a series of points along your selected course, and are calculated based on your current position and compass bearing, which are acquired using the internal phone GPS. etc etc, finish l8r</string>
+    
+   
+    
+</resources>
